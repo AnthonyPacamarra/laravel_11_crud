@@ -9,4 +9,3 @@ Route::get('/', function () {
 });
 
 Route::resource('products', ProductController::class);
-Route::get('/author/books/{id}', [RelationController::class, 'getBooksByAuthor']);
